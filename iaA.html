@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Slider</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="image fade">
+            <img src="ia1.png" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="ia2.png" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="ia3.png" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="ia4.png" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="ia5.png" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="ia6.png" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="ia7.png" width="100%">
+        </div>
+        <i id="prev" onclick="showImage(-1)" class="fa fa-caret-left" aria-hidden="true"></i>
+        <i id="next" onclick="showImage(1)" class="fa fa-caret-right" aria-hidden="true"></i>
+
+        <div class="dots">
+
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
