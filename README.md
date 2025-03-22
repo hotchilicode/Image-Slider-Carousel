@@ -15,3 +15,5 @@ A simple web application that displays a slideshow of images with navigation dot
 - CSS
 - JavaScript
 
+  ![Image](https://github.com/user-attachments/assets/f01d26dd-58be-4de8-84c2-72fa53c07a7e)
+
